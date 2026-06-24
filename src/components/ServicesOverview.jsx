@@ -12,7 +12,7 @@ export default function ServicesOverview() {
           transition={{ duration: 0.5 }}
           className="font-display text-3xl sm:text-5xl font-medium max-w-2xl text-balance-tight"
         >
-          Je conçois des produits, du code et des interfaces.
+          Comment je peux vous aider
         </motion.h2>
 
         <div className="grid sm:grid-cols-3 gap-5 mt-12">

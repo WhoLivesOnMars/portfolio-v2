@@ -17,6 +17,9 @@ export const aboutData = {
   description3:
     "En dehors de l’informatique, la musique occupe une place importante dans ma vie : j’aime non seulement l’écouter, mais aussi la pratiquer moi-même 🎸🎹",
 
+  previewText1: "Ex-cheffe de projet — je sais ce que veut le client et ce que peut le code.",
+  previewText2: "Résultat : des projets qui répondent à de vrais besoins, pas juste à un cahier des charges.",
+
   descriptionPhoto: photo6,
 
   photos: [
