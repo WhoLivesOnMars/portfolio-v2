@@ -71,22 +71,29 @@ export default function Header() {
               onClick={() => setMenuOpen(!menuOpen)}
               aria-label={menuOpen ? "Fermer le menu" : "Ouvrir le menu"}
               aria-expanded={menuOpen}
-              className={`relative z-20 w-16 h-16 sm:w-18 sm:h-18 bg-[rgb(249,247,242)] rounded-full flex items-center justify-center transition-all duration-300 hover:scale-105 ${
+              className={`relative z-20 w-16 h-16 sm:w-18 sm:h-18 rounded-full flex items-center justify-center transition-all duration-300 hover:scale-105 ${
                 menuOpen
                   ? "bg-white/15 backdrop-blur-md"
                   : "bg-cream/90 hover:bg-cream/70"
               }`}
             >
-              <span
-                className={`absolute w-7 h-[4px] rounded-full transition-all duration-300 ${
-                  menuOpen ? "bg-ink/60 rotate-45" : "bg-ink rotate-0"
-                }`}
-              />
-              <span
-                className={`absolute w-7 h-[4px] rounded-full transition-all duration-300 ${
-                  menuOpen ? "bg-ink/60 -rotate-45" : "bg-ink rotate-90"
-                }`}
-              />
+              <div className="flex flex-col items-center justify-center gap-[5px]">
+                <span
+                  className={`w-7 h-[3px] rounded-full transition-all duration-300 origin-center ${
+                    menuOpen ? "bg-ink/60 rotate-45 translate-y-[8px]" : "bg-ink"
+                  }`}
+                />
+                <span
+                  className={`w-7 h-[3px] rounded-full transition-all duration-300 ${
+                    menuOpen ? "bg-ink/60 opacity-0 scale-x-0" : "bg-ink"
+                  }`}
+                />
+                <span
+                  className={`w-7 h-[3px] rounded-full transition-all duration-300 origin-center ${
+                    menuOpen ? "bg-ink/60 -rotate-45 -translate-y-[8px]" : "bg-ink"
+                  }`}
+                />
+              </div>
             </button>
 
             <AnimatePresence>
