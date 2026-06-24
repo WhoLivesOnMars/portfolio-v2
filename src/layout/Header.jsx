@@ -54,7 +54,7 @@ export default function Header() {
 
         <Link
           to="/"
-          className="w-16 h-16 sm:w-18 sm:h-18 rounded-full bg-sky text-white flex items-center justify-center font-display text-3xl font-bold transition-transform duration-300 hover:scale-105"
+          className="w-16 h-16 sm:w-18 sm:h-18 rounded-full bg-sky text-white flex items-center justify-center font-display text-3xl font-bold transition-transform duration-300 hover:scale-105 ring-1 ring-white/40 ring-offset-1 ring-offset-transparent"
         >
           D.
         </Link>
