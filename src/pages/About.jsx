@@ -44,7 +44,7 @@ function PhotoCollage({ activeKey }) {
                 <img
                   src={photo.src}
                   alt=""
-                  className="h-full w-full object-cover object-top"
+                  className="h-full w-full object-cover object-center"
                 />
               ) : (
                 <div className="h-full w-full bg-white/25" />
