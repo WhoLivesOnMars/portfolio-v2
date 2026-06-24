@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Logo D.">
+  <circle cx="256" cy="256" r="220" fill="#60C2E2"/>
+  <text x="222" y="315"
+        fill="#FFFFFF"
+        font-family="Georgia, 'Times New Roman', serif"
+        font-size="180"
+        font-weight="700"
+        text-anchor="middle">D</text>
+  <circle cx="340" cy="304" r="19" fill="#FFFFFF"/>
+</svg>

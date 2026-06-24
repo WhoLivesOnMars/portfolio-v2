@@ -1,0 +1,81 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: "Fraunces", "Georgia", serif;
+  --font-sans: "Inter", "Helvetica Neue", Arial, sans-serif;
+
+  --color-cream: #f7f3ec;
+  --color-cream-dark: #efe9de;
+  --color-ink: #16161a;
+  --color-ink-soft: #3a3a42;
+  --color-accent: #ff5a36;
+  --color-accent-soft: #ffd9cc;
+  --color-deep: #1e1b4b;
+  --color-deep-light: #2e2a6b;
+  --color-mint: #c8f284;
+  --color-pale-yellow: #fff1d6;
+  --color-sky: #29c5e6;
+  --color-terracotta: #b5684a;
+  --color-sage: #b9e7b9;
+  --color-blush: #f1a3a3;
+
+  --animate-spin-slow: spin-slow 8s linear infinite;
+
+  @keyframes spin-slow {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+body {
+  margin: 0;
+  overflow-x: hidden;
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: var(--font-display);
+  letter-spacing: -0.01em;
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.carousel-track {
+  animation: carousel-scroll 80s linear infinite;
+}
+
+@keyframes carousel-scroll {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(-33.333%);
+  }
+}
