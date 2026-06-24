@@ -148,7 +148,7 @@ export default function ProjectDetail() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.5 }}
-          className="font-display text-2xl sm:text-3xl font-medium mb-10"
+          className="font-display text-2xl sm:text-3xl font-medium pb-10"
         >
           Compétences mobilisées
         </motion.h2>
@@ -213,7 +213,7 @@ export default function ProjectDetail() {
           className="group flex items-center justify-between"
         >
           <div>
-            <p className="text-xs text-ink-soft uppercase tracking-widest mb-3">
+            <p className="text-xs text-ink-soft uppercase tracking-widest pb-3">
               Projet suivant
             </p>
             <h3 className="font-display text-3xl sm:text-5xl font-medium text-ink group-hover:text-accent transition-colors duration-300">

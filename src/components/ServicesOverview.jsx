@@ -33,7 +33,7 @@ export default function ServicesOverview() {
                 0{i + 1}
               </span>
               <div>
-                <h3 className="font-display text-2xl font-medium mb-2">
+                <h3 className="font-display text-2xl font-medium pb-2">
                   {service.title}
                 </h3>
                 <p className="text-sm leading-relaxed opacity-80">
