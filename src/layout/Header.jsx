@@ -7,7 +7,7 @@ import { headerData } from '../data/headerData';
 const navLinks = [
   { to: "/", label: "Accueil" },
   { to: "/projets", label: "Projets" },
-  { to: "/services", label: "Services" },
+  // { to: "/services", label: "Services" },
   { to: "/a-propos", label: "À propos" },
   { to: "/contact", label: "Contact" },
 ];

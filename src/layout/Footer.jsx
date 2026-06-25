@@ -4,7 +4,7 @@ import { socialsData } from "../data/socialsData";
 
 const navLinks = [
   { to: "/projets", label: "Projets" },
-  { to: "/services", label: "Services" },
+  // { to: "/services", label: "Services" },
   { to: "/a-propos", label: "À propos" },
   { to: "/contact", label: "Contact" },
 ];
