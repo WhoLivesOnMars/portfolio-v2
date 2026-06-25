@@ -207,7 +207,7 @@ export default function About() {
               className="flex flex-col lg:flex-row gap-8 lg:gap-32 items-start justify-end"
             >
               <img
-                src={aboutData.descriptionPhoto}
+                src={aboutData.descriptionPhoto1}
                 alt=""
                 className="
                   w-full lg:w-[30%] lg:mt-48
@@ -216,7 +216,7 @@ export default function About() {
                 "
               />
               <img
-                src={photos[2].src}
+                src={aboutData.descriptionPhoto2}
                 alt=""
                 className="
                   w-full lg:w-[40%]

@@ -1,9 +1,11 @@
 import photo1 from "../assets/about/developer.jpg";
 import photo2 from "../assets/about/team.jpg";
 import photo3 from "../assets/about/vr.jpg";
-import photo4 from "../assets/about/office.jpg";
+import photo4 from "../assets/about/lenta.jpg";
 import photo5 from "../assets/about/student.jpg";
-import photo6 from "../assets/about/student.jpg";
+import photo6 from "../assets/about/ski.jpg";
+import photo7 from "../assets/about/website.jpg";
+import photo8 from "../assets/about/office.jpg";
 
 export const aboutData = {
   title: "Qui suis-je ?",
@@ -15,12 +17,13 @@ export const aboutData = {
     "Mon parcours dans le domaine de l’IT a commencé en 2019, par la gestion de projets informatiques. C’est en travaillant au plus près des développeurs que j’ai découvert cet univers et que j’ai eu envie d’évoluer vers le développement web. Depuis, je me forme pour me réorienter pleinement dans ce domaine qui me passionne.",
 
   description3:
-    "En dehors de l’informatique, la musique occupe une place importante dans ma vie : j’aime non seulement l’écouter, mais aussi la pratiquer moi-même 🎸🎹",
+    "En dehors de l’informatique, la musique occupe une place importante dans ma vie : j’aime non seulement l’écouter, mais aussi la pratiquer moi-même 🎸🎹 Le ski a aussi une place importante, avec cette sensation d’aller toujours un peu plus haut 🏔️",
 
   previewText1: "Ex-cheffe de projet — je sais ce que veut le client et ce que peut le code.",
   previewText2: "Résultat : des projets qui répondent à de vrais besoins, pas juste à un cahier des charges.",
 
-  descriptionPhoto: photo6,
+  descriptionPhoto1: photo6,
+  descriptionPhoto2: photo8,
 
   photos: [
     {
@@ -46,8 +49,8 @@ export const aboutData = {
     {
       id: 3,
       group: "idees",
-      src: photo4,
-      caption: "Immersion en agence web",
+      src: photo7,
+      caption: "Du maquettage à l’intégration",
       rotate: 5,
       rounded: "full",
       className:
@@ -66,8 +69,8 @@ export const aboutData = {
     {
       id: 5,
       group: "idees",
-      src: null,
-      caption: "Apprentissage, curiosité et progression",
+      src: photo4,
+      caption: "Contribuer à un projet collectif",
       rotate: 4,
       rounded: "md",
       className:
