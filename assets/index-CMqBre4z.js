@@ -577,7 +577,7 @@ $bm_rt = $bm_sub($bm_sum(loopIn('cycle'), loopOut('cycle')), value);`},w:1656,h:
                 h-full w-full
                 ${roundedMap[t.rounded]}
                 overflow-hidden bg-white/20
-              `,style:{transform:`rotate(${t.rotate}deg)`},children:t.src?(0,import_jsx_runtime.jsx)(`img`,{src:t.src,alt:``,className:`h-full w-full object-cover object-center`}):(0,import_jsx_runtime.jsx)(`div`,{className:`h-full w-full bg-white/25`})}),(0,import_jsx_runtime.jsx)(`p`,{className:`
+              `,style:{transform:`rotate(${t.rotate}deg)`},children:(0,import_jsx_runtime.jsx)(`img`,{src:t.src,alt:``,className:`h-full w-full object-cover object-center`})}),(0,import_jsx_runtime.jsx)(`p`,{className:`
                 mt-3 pt-4 max-w-full text-center text-xs sm:text-sm font-medium leading-snug text-white
                 transition-opacity duration-300
                 ${n?`opacity-100`:`opacity-0`}
