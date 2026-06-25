@@ -7,12 +7,34 @@ import six from '../assets/projects/six.png'
 import eight from '../assets/projects/eight.png'
 import nine from '../assets/projects/nine.png'
 import ten from '../assets/projects/ten.png'
+import elleven from '../assets/projects/elleven.png'
 
 export const categories = ["Tous", "Frontend", "Backend", "Full-stack", "Design"];
 
 export const projectsData = [
   {
     id: 1,
+    slug: "feffs-application-mobile",
+    projectName: "FEFFS — Application mobile événementielle",
+    category: ["Frontend"],
+    tags: ["React Native"],
+    competences: ["COMPRENDRE", "CONCEVOIR", "DÉVELOPPER"],
+    context: "Projet DI — BUT MMI, IUT de Haguenau (2025). Projet de groupe.",
+    projectDesc: "Application mobile événementielle dédiée au Festival Européen du Film Fantastique de Strasbourg. Elle permet de consulter les événements, gérer un planning personnel, s'authentifier et personnaliser l'interface.",
+    projectDetails: "J'ai pris en charge la gestion des comptes utilisateurs (inscription, connexion, modification du profil), l'accès à la galerie pour la photo de profil, le système de thèmes visuels (clair, sombre, système) via un contexte global, ainsi que l'intégration des médias et les considérations d'accessibilité.",
+    competenceDetails: {
+      COMPRENDRE: "Analyse des besoins d'une application événementielle mobile : parcours utilisateur, gestion de l'état global, persistance locale des données avec AsyncStorage et contraintes d'accessibilité sur mobile.",
+      CONCEVOIR: "Conception des écrans liés à l'authentification, au profil utilisateur et aux paramètres. Mise en place d'un système de thèmes via ThemeContext et d'un AuthContext centralisé pour la gestion de session.",
+      DÉVELOPPER: "Développement des fonctionnalités d'inscription, connexion, modification du profil et changement de photo via expo-image-picker. Implémentation du système de thèmes dynamiques et intégration des médias (images, vidéos YouTube, carrousel).",
+    },
+    image: elleven,
+    images: [],
+    code: "https://github.com/WhoLivesOnMars/FEFFS",
+    demo: "https://github.com/WhoLivesOnMars/FEFFS",
+    year: "2025",
+  },
+  {
+    id: 2,
     slug: "proxima-gestion-de-projets",
     projectName: "Proxima — Gestion de projets",
     category: ["Frontend", "Backend", "Fullstack"],
@@ -34,7 +56,7 @@ export const projectsData = [
     year: "2025",
   },
   {
-    id: 2,
+    id: 3,
     slug: "mesto-galerie-photo",
     projectName: "Mesto - Galerie photo",
     category: ["Frontend"],
@@ -54,7 +76,7 @@ export const projectsData = [
     year: "2023",
   },
   {
-    id: 3,
+    id: 4,
     slug: "couture-marketplace",
     projectName: "Couture",
     category: ["Frontend", "Backend", "Full-stack"],
@@ -75,7 +97,7 @@ export const projectsData = [
     year: "2025",
   },
   {
-    id: 4,
+    id: 5,
     slug: "jeu-snake",
     projectName: "Le jeu Snake",
     category: ["Frontend"],
@@ -95,7 +117,7 @@ export const projectsData = [
     year: "2025",
   },
   {
-    id: 5,
+    id: 6,
     slug: "quete-medievale-unity",
     projectName: "La Quête Médiévale",
     category: ["Design", "Full-stack"],
@@ -117,7 +139,7 @@ export const projectsData = [
     year: "2025",
   },
   {
-    id: 6,
+    id: 7,
     slug: "site-voyage",
     projectName: "Traveling in Russia",
     category: ["Frontend"],
@@ -137,7 +159,7 @@ export const projectsData = [
     year: "2022",
   },
   {
-    id: 7,
+    id: 8,
     slug: "agence-geo",
     projectName: "Site vitrine Agence GEO",
     client: "Hémisphère Web",
@@ -159,7 +181,7 @@ export const projectsData = [
     year: "2025",
   },
   {
-    id: 8,
+    id: 9,
     slug: "design-alsace-nautile",
     projectName: "Alsace Nautile Club",
     client: "Alsace Nautile Club",
@@ -182,7 +204,7 @@ export const projectsData = [
     year: "2024",
   },
   {
-    id: 9,
+    id: 10,
     slug: "design-ferme-humbert",
     projectName: "Ferme Humbert",
     category: ["Design"],
