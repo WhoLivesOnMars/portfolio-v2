@@ -1,13 +1,13 @@
-import one from '../assets/projects/one.png'
-import two from '../assets/projects/two.png'
-import three from '../assets/projects/three.png'
-import four from '../assets/projects/four.png'
-import five from '../assets/projects/five.png'
-import six from '../assets/projects/six.png'
-import eight from '../assets/projects/eight.png'
-import nine from '../assets/projects/nine.png'
-import ten from '../assets/projects/ten.png'
-import elleven from '../assets/projects/elleven.png'
+import one from '../assets-optimized/projects/one.webp'
+import two from '../assets-optimized/projects/two.webp'
+import three from '../assets-optimized/projects/three.webp'
+import four from '../assets-optimized/projects/four.webp'
+import five from '../assets-optimized/projects/five.webp'
+import six from '../assets-optimized/projects/six.webp'
+import eight from '../assets-optimized/projects/eight.webp'
+import nine from '../assets-optimized/projects/nine.webp'
+import ten from '../assets-optimized/projects/ten.webp'
+import eleven from '../assets-optimized/projects/eleven.webp'
 
 export const categories = ["Tous", "Frontend", "Backend", "Full-stack", "Design"];
 
@@ -69,7 +69,7 @@ export const projectsData = [
       CONCEVOIR: "Conception des écrans liés à l'authentification, au profil utilisateur et aux paramètres. Mise en place d'un système de thèmes via ThemeContext et d'un AuthContext centralisé pour la gestion de session.",
       DÉVELOPPER: "Développement des fonctionnalités d'inscription, connexion, modification du profil et changement de photo via expo-image-picker. Implémentation du système de thèmes dynamiques et intégration des médias (images, vidéos YouTube, carrousel).",
     },
-    image: elleven,
+    image: eleven,
     images: [],
     code: "https://github.com/WhoLivesOnMars/FEFFS",
     demo: "https://github.com/WhoLivesOnMars/FEFFS",

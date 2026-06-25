@@ -1,6 +1,6 @@
-import illustration1 from "../assets/illustrations/edu1.png";
-import illustration2 from "../assets/illustrations/edu2.png";
-import illustration3 from "../assets/illustrations/edu3.png";
+import illustration1 from "../assets-optimized/illustrations/edu1.webp";
+import illustration2 from "../assets-optimized/illustrations/edu2.webp";
+import illustration3 from "../assets-optimized/illustrations/edu3.webp";
 
 export const educationData = {
   title: "Formation",

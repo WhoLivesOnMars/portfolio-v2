@@ -1,7 +1,7 @@
 import { useRef, useEffect, useState } from "react";
 import { motion, useScroll, useTransform } from "framer-motion";
 import { educationData } from "../data/educationData";
-import illustration from "../assets/illustrations/work2.png";
+import illustration from "../assets-optimized/illustrations/work2.webp";
 
 const chronological = [...educationData.items].reverse();
 

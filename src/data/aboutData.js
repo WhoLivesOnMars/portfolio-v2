@@ -1,11 +1,11 @@
-import photo1 from "../assets/about/developer.jpg";
-import photo2 from "../assets/about/team.jpg";
-import photo3 from "../assets/about/vr.jpg";
-import photo4 from "../assets/about/lenta.jpg";
-import photo5 from "../assets/about/student.jpg";
-import photo6 from "../assets/about/ski.jpg";
-import photo7 from "../assets/about/website.jpg";
-import photo8 from "../assets/about/office.jpg";
+import photo1 from "../assets-optimized/about/developer.webp";
+import photo2 from "../assets-optimized/about/team.webp";
+import photo3 from "../assets-optimized/about/vr.webp";
+import photo4 from "../assets-optimized/about/lenta.webp";
+import photo5 from "../assets-optimized/about/student.webp";
+import photo6 from "../assets-optimized/about/ski.webp";
+import photo7 from "../assets-optimized/about/website.webp";
+import photo8 from "../assets-optimized/about/office.webp";
 
 export const aboutData = {
   title: "Qui suis-je ?",

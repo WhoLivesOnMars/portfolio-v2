@@ -2,15 +2,15 @@ import animation1 from "../assets/carousel/animations/space.json";
 import animation2 from "../assets/carousel/animations/uiux.json";
 import animation3 from "../assets/carousel/animations/rocket.json";
 import animation4 from "../assets/carousel/animations/card.json";
-import image1 from "../assets/carousel/images/code.jpg";
-import image2 from "../assets/carousel/images/mouse.png";
-import image3 from "../assets/carousel/images/tablet.jpg";
-import image4 from "../assets/carousel/images/wireframes.jpg";
-import image5 from "../assets/carousel/images/laptop.jpg";
-import image6 from "../assets/carousel/images/screen.png";
-import image7 from "../assets/carousel/images/site.jpg";
-import image8 from "../assets/carousel/images/table.png";
-import image9 from "../assets/carousel/images/work.jpg";
+import image1 from "../assets-optimized/carousel/images/code.webp";
+import image2 from "../assets-optimized/carousel/images/mouse.webp";
+import image3 from "../assets-optimized/carousel/images/tablet.webp";
+import image4 from "../assets-optimized/carousel/images/wireframes.webp";
+import image5 from "../assets-optimized/carousel/images/laptop.webp";
+import image6 from "../assets-optimized/carousel/images/screen.webp";
+import image7 from "../assets-optimized/carousel/images/site.webp";
+import image8 from "../assets-optimized/carousel/images/table.webp";
+import image9 from "../assets-optimized/carousel/images/work.webp";
 
 export const carouselImages = [
   { id: 1, src: image1, rotate: -6, size: "wide", aspect: "landscape", shift: "up", rounded: "sm" },
