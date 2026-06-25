@@ -6,12 +6,35 @@ import five from '../assets/projects/five.png'
 import six from '../assets/projects/six.png'
 import eight from '../assets/projects/eight.png'
 import nine from '../assets/projects/nine.png'
+import ten from '../assets/projects/ten.png'
 
 export const categories = ["Tous", "Frontend", "Backend", "Full-stack", "Design"];
 
 export const projectsData = [
   {
     id: 1,
+    slug: "proxima-gestion-de-projets",
+    projectName: "Proxima — Gestion de projets",
+    category: ["Frontend", "Backend", "Fullstack"],
+    tags: ["Laravel", "Tailwind", "Alpine.js", "PostgreSQL"],
+    competences: ["COMPRENDRE", "CONCEVOIR", "DÉVELOPPER", "ENTREPRENDRE"],
+    context: "SAE 501 — BUT MMI parcours Développement web, IUT de Haguenau (2025)",
+    projectDesc: "Application web de gestion de projets collaboratifs inspirée de Trello et Jira. Elle permet de gérer des projets, sprints, epics et tâches via un tableau Kanban interactif, avec notifications, reporting et invitation d'utilisateurs par token.",
+    projectDetails: "Le principal défi technique a été d'implémenter des interactions dynamiques (drag-and-drop, filtres, notifications) avec Livewire sans recourir à un framework JavaScript dédié. J'ai également conçu un système d'onboarding automatique à l'inscription et travaillé sur des relations complexes entre sprints, epics et tâches.",
+    competenceDetails: {
+      COMPRENDRE: "Analyse des besoins d'une application de gestion de projets Agile (Scrum + Kanban) : identification des entités métier, des parcours utilisateurs et des règles de gestion des tâches et sprints.",
+      CONCEVOIR: "Conception du schéma de base de données, des user stories et des maquettes des écrans principaux (Kanban, Roadmap, Reports). Mise en place d'une architecture modulaire avec policies, factories et model events Laravel.",
+      DÉVELOPPER: "Développement fullstack d'une application Laravel 12 avec Livewire pour les composants réactifs (Kanban drag-and-drop, filtres, notifications). Implémentation du CRUD complet sur projets, sprints, epics et tâches, avec authentification, protection CSRF et règles d'accès par rôle.",
+      ENTREPRENDRE: "Gestion du projet en mode Agile avec Trello : rédaction des user stories, organisation en epics et répartition des tâches selon le planning en 4 semaines. Suivi de l'avancement sprint par sprint pour respecter les délais de la SAE.",
+    },
+    image: ten,
+    images: [],
+    code: "https://github.com/WhoLivesOnMars/proxima",
+    demo: "https://proxima-rp8b.onrender.com",
+    year: "2025",
+  },
+  {
+    id: 2,
     slug: "mesto-galerie-photo",
     projectName: "Mesto - Galerie photo",
     category: ["Frontend"],
@@ -31,7 +54,7 @@ export const projectsData = [
     year: "2023",
   },
   {
-    id: 2,
+    id: 3,
     slug: "couture-marketplace",
     projectName: "Couture",
     category: ["Frontend", "Backend", "Full-stack"],
@@ -52,7 +75,7 @@ export const projectsData = [
     year: "2025",
   },
   {
-    id: 3,
+    id: 4,
     slug: "jeu-snake",
     projectName: "Le jeu Snake",
     category: ["Frontend"],
@@ -72,7 +95,7 @@ export const projectsData = [
     year: "2025",
   },
   {
-    id: 4,
+    id: 5,
     slug: "quete-medievale-unity",
     projectName: "La Quête Médiévale",
     category: ["Design", "Full-stack"],
@@ -94,7 +117,7 @@ export const projectsData = [
     year: "2025",
   },
   {
-    id: 5,
+    id: 6,
     slug: "site-voyage",
     projectName: "Traveling in Russia",
     category: ["Frontend"],
@@ -114,7 +137,7 @@ export const projectsData = [
     year: "2022",
   },
   {
-    id: 6,
+    id: 7,
     slug: "agence-geo",
     projectName: "Site vitrine Agence GEO",
     client: "Hémisphère Web",
@@ -136,7 +159,7 @@ export const projectsData = [
     year: "2025",
   },
   {
-    id: 7,
+    id: 8,
     slug: "design-alsace-nautile",
     projectName: "Alsace Nautile Club",
     client: "Alsace Nautile Club",
@@ -159,7 +182,7 @@ export const projectsData = [
     year: "2024",
   },
   {
-    id: 8,
+    id: 9,
     slug: "design-ferme-humbert",
     projectName: "Ferme Humbert",
     category: ["Design"],
