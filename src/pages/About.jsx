@@ -40,15 +40,11 @@ function PhotoCollage({ activeKey }) {
               `}
               style={{ transform: `rotate(${photo.rotate}deg)` }}
             >
-              {photo.src ? (
-                <img
-                  src={photo.src}
-                  alt=""
-                  className="h-full w-full object-cover object-center"
-                />
-              ) : (
-                <div className="h-full w-full bg-white/25" />
-              )}
+              <img
+                src={photo.src}
+                alt=""
+                className="h-full w-full object-cover object-center"
+              />
             </div>
             <p
               className={`
