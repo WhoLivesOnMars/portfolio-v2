@@ -1,7 +1,6 @@
 import photo1 from "../assets-optimized/about/developer.webp";
 import photo2 from "../assets-optimized/about/team.webp";
 import photo3 from "../assets-optimized/about/vr.webp";
-import photo4 from "../assets-optimized/about/lenta.webp";
 import photo5 from "../assets-optimized/about/student.webp";
 import photo6 from "../assets-optimized/about/ski.webp";
 import photo7 from "../assets-optimized/about/website.webp";
@@ -34,17 +33,17 @@ export const aboutData = {
       rotate: -6,
       rounded: "xl",
       className:
-        "absolute top-[18%] left-0 w-[17vw] min-w-[130px] max-w-[260px] aspect-[3/4]",
+        "absolute top-[18%] left-0 w-[14vw] min-w-[110px] max-w-[220px] aspect-[3/4]",
     },
     {
       id: 2,
       group: "curiosite",
       src: photo2,
       caption: "Atelier projet et recherche d’idées",
-      rotate: 4,
+      rotate: -4,
       rounded: "xl",
       className:
-        "absolute top-0 left-[28%] w-[18vw] min-w-[150px] max-w-[310px] aspect-[4/3]",
+        "absolute top-[1%] left-[17%] w-[14vw] min-w-[110px] max-w-[240px] aspect-[4/3]",
     },
     {
       id: 3,
@@ -54,27 +53,17 @@ export const aboutData = {
       rotate: 5,
       rounded: "full",
       className:
-        "absolute top-[7%] right-[1%] w-[20vw] min-w-[170px] max-w-[320px] aspect-[4/5]",
+        "absolute top-[17%] right-[1%] w-[16vw] min-w-[130px] max-w-[250px] aspect-[4/5]",
     },
     {
       id: 4,
       group: "curiosite",
       src: photo3,
       caption: "En cours de développement d’un jeu VR",
-      rotate: -5,
+      rotate: 5,
       rounded: "full",
       className:
-        "absolute bottom-[8%] left-[7%] w-[16vw] min-w-[140px] max-w-[260px] aspect-square",
-    },
-    {
-      id: 5,
-      group: "idees",
-      src: photo4,
-      caption: "Contribuer à un projet collectif",
-      rotate: 4,
-      rounded: "md",
-      className:
-        "absolute bottom-[2%] right-[28%] w-[22vw] min-w-[190px] max-w-[360px] aspect-[4/3]",
+        "absolute bottom-[1%] left-[7%] w-[14vw] min-w-[120px] max-w-[220px] aspect-square",
     },
     {
       id: 6,
@@ -84,7 +73,7 @@ export const aboutData = {
       rotate: -4,
       rounded: "xl",
       className:
-        "absolute bottom-[21%] right-[3%] w-[15vw] min-w-[130px] max-w-[240px] aspect-square object-top",
+        "absolute bottom-[2%] right-[11%] w-[15vw] min-w-[130px] max-w-[240px] aspect-square object-top",
     }
   ],
 };

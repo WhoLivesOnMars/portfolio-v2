@@ -86,13 +86,10 @@ export default function About() {
 
   const photos = aboutData.photos;
 
-  const { scrollYProgress } = useScroll({
-    target: heroRef,
-    offset: ["start start", "end start"],
-  });
+  const { scrollY } = useScroll();
 
-  useMotionValueEvent(scrollYProgress, "change", (latest) => {
-    setIsWhite(latest > 0.35);
+  useMotionValueEvent(scrollY, "change", (latest) => {
+    setIsWhite(latest > 1);
   });
 
   return (
@@ -106,7 +103,7 @@ export default function About() {
         `}
       >
         <div className="hidden sm:block overflow-hidden">
-          <div className="relative h-screen xl:h-[1000px] 2xl:h-[1400px]">
+          <div className="relative h-screen">
             <PhotoCollage activeKey={activeKey} isWhite={isWhite} />
           </div>
         </div>
@@ -136,7 +133,7 @@ export default function About() {
           </div>
         </div>
 
-        <div className="hidden sm:flex absolute inset-0 z-30 justify-center px-5 pt-[300px] 2xl:pt-[500px]">
+        <div className="hidden sm:flex absolute inset-0 z-30 items-center justify-center px-5">
           <motion.h1
             initial={{ opacity: 0, y: 24 }}
             animate={{ opacity: 1, y: 0 }}
@@ -200,13 +197,13 @@ export default function About() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.6 }}
-              className="flex flex-col lg:flex-row gap-8 lg:gap-32 items-start justify-end"
+              className="flex flex-col lg:flex-row gap-8 lg:gap-15 items-start justify-end"
             >
               <img
                 src={aboutData.descriptionPhoto1}
                 alt=""
                 className="
-                  w-full lg:w-[30%] lg:mt-48
+                  w-full lg:w-[30%] lg:mt-35
                   aspect-[4/5] object-cover
                   rounded-[5rem]
                 "
@@ -215,8 +212,8 @@ export default function About() {
                 src={aboutData.descriptionPhoto2}
                 alt=""
                 className="
-                  w-full lg:w-[40%]
-                  aspect-[1] object-cover
+                  w-full lg:w-[25%]
+                  aspect-[4/5] object-cover
                   rounded-[2rem]
                 "
               />
