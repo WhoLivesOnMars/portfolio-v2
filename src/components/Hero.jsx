@@ -31,7 +31,7 @@ export default function Hero() {
           className="
             text-center
             font-display font-bold tracking-[-0.06em]
-            text-[2.2rem] sm:text-[3rem] lg:text-[4.5rem] xl:text-[6rem]
+            text-[2.2rem] sm:text-[3rem] lg:text-[4rem] xl:text-[5rem]
             leading-[0.88]
             max-w-[1150px]
             whitespace-pre-line

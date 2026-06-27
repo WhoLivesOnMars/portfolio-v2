@@ -9,14 +9,42 @@ import photo8 from "../assets-optimized/about/office.webp";
 export const aboutData = {
   title: "Qui suis-je ?",
 
-  description1:
-    "Bonjour ! Je m’appelle Daria. Je suis actuellement étudiante de BUT Métiers du Multimédia et de l’Internet à l’IUT de Haguenau, où j’apprends le Développement Web Fullstack 💻",
+  description1: [
+    {
+      text: "Bonjour ! Je m’appelle Daria. Je suis actuellement étudiante en BUT Métiers du Multimédia et de l’Internet à l’IUT de Haguenau, où je développe mes compétences en ",
+    },
+    {
+    text: "conception et développement de projets numériques : des applications web et mobiles jusqu’aux univers 3D et aux environnements immersifs 💻",
+    highlight: true,
+    },
+  ],
 
-  description2:
-    "Mon parcours dans le domaine de l’IT a commencé en 2019, par la gestion de projets informatiques. C’est en travaillant au plus près des développeurs que j’ai découvert cet univers et que j’ai eu envie d’évoluer vers le développement web. Depuis, je me forme pour me réorienter pleinement dans ce domaine qui me passionne.",
+  description2: [
+    {
+      text: "Mon parcours dans le domaine de l’IT a commencé en 2019, par la ",
+    },
+    {
+      text: "gestion de projets informatiques",
+      highlight: true,
+    },
+    {
+      text: ". C’est en travaillant au plus près des développeurs que j’ai découvert cet univers et que j’ai eu envie de passer de la coordination de projets à leur conception technique. Aujourd’hui, je me forme pour approfondir cette transition et créer des solutions de qualité, en gardant toujours ",
+    },
+    {
+      text: "l’utilisateur au centre de ma réflexion.",
+      highlight: true,
+    },
+  ],
 
-  description3:
-    "En dehors de l’informatique, la musique occupe une place importante dans ma vie : j’aime non seulement l’écouter, mais aussi la pratiquer moi-même 🎸🎹 Le ski a aussi une place importante, avec cette sensation d’aller toujours un peu plus haut 🏔️",
+  description3: [
+    {
+      text: "En dehors de l’informatique, la musique occupe une place importante dans ma vie : j’aime non seulement l’écouter, mais aussi la pratiquer moi-même 🎸🎹. Le ski m’accompagne aussi, avec cette ",
+    },
+    {
+      text: "envie d’aller toujours un peu plus haut et de découvrir de nouveaux sommets 🏔️",
+      highlight: true,
+    },
+  ],
 
   previewText1: "Ex-cheffe de projet — je sais ce que veut le client et ce que peut le code.",
   previewText2: "Résultat : des projets qui répondent à de vrais besoins, pas juste à un cahier des charges.",
@@ -57,23 +85,23 @@ export const aboutData = {
     },
     {
       id: 4,
-      group: "curiosite",
+      group: "idees",
       src: photo3,
       caption: "En cours de développement d’un jeu VR",
       rotate: 5,
       rounded: "full",
       className:
-        "absolute bottom-[1%] left-[7%] w-[14vw] min-w-[120px] max-w-[220px] aspect-square",
+        "absolute bottom-[9%] left-[7%] w-[14vw] min-w-[120px] max-w-[220px] aspect-square",
     },
     {
       id: 6,
       group: "curiosite",
       src: photo5,
-      caption: "Toujours prête à apprendre",
+      caption: "Me former, découvrir, évoluer",
       rotate: -4,
       rounded: "xl",
       className:
-        "absolute bottom-[2%] right-[11%] w-[15vw] min-w-[130px] max-w-[240px] aspect-square object-top",
+        "absolute bottom-[7%] right-[11%] w-[15vw] min-w-[130px] max-w-[240px] aspect-square object-top",
     }
   ],
 };

@@ -24,9 +24,7 @@ export default function ExperienceSection() {
             transition={{ duration: 0.5 }}
             className="text-4xl sm:text-6xl font-medium leading-tight text-ink"
           >
-            {experienceData.title1}
-            <br />
-            {experienceData.title2}
+            {experienceData.title}
           </motion.h2>
 
           <motion.p

@@ -4,7 +4,7 @@ import illustration3 from "../assets-optimized/illustrations/edu3.webp";
 
 export const educationData = {
   title: "Formation",
-  description: "Un parcours construit entre multimédia, développement web et gestion de projets.",
+  description: "Un parcours qui accompagne ma progression vers un profil polyvalent.",
   items: [
     {
       id: 1,

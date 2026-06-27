@@ -1,17 +1,16 @@
 import recommendation from '../assets/pdf/Lettre Recommandation Daria KHANINA.pdf'
 
 export const experienceData = {
-  title1: "Expérience",
-  title2: "professionnelle",
-  description: "Des expériences entre gestion de projets, développement web et création de solutions digitales.",
+  title: "Expérience professionnelle",
+  description: "Une évolution professionnelle, de la coordination à la réalisation technique.",
   items: [
     {
       id: 1,
       company: "Ideematic (Développement web & solutions digitales - Strasbourg, France)",
-      jobtitle: "Développeuse web — Stagiaire",
+      jobtitle: "Développeuse d’applications web et mobiles — Stagiaire",
       startYear: '2026',
       endYear: 'Présent',
-      tags: ["Ruby on Rails", "React", "Docker", "PostgreSQL"]
+      tags: ["Ruby on Rails", "React", "React Native", "Docker", "PostgreSQL"]
     },
     {
       id: 2,
