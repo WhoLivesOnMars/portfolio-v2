@@ -23,8 +23,7 @@ export default function Projects() {
           Tous les projets
         </motion.h1>
         <p className="mt-4 text-cream/50 max-w-lg">
-          Une sélection de projets web sur lesquels j'ai travaillé, du
-          frontend au backend.
+          Une sélection de projets numériques sur lesquels j’ai travaillé.
         </p>
 
         <div className="flex flex-wrap gap-2 mt-10">

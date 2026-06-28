@@ -9,17 +9,17 @@ import nine from '../assets-optimized/projects/nine.webp'
 import ten from '../assets-optimized/projects/ten.webp'
 import eleven from '../assets-optimized/projects/eleven.webp'
 
-export const categories = ["Tous", "Frontend", "Backend", "Full-stack", "Design"];
+export const categories = ["Tous", "Web", "Mobile", "3D & Immersif", "Design"];
 
 export const projectsData = [
   {
     id: 1,
     slug: "proxima-gestion-de-projets",
     projectName: "Proxima — Gestion de projets",
-    category: ["Frontend", "Backend", "Fullstack"],
+    category: ["Web"],
     tags: ["Laravel", "Tailwind", "Alpine.js", "PostgreSQL"],
     competences: ["COMPRENDRE", "CONCEVOIR", "DÉVELOPPER", "ENTREPRENDRE"],
-    context: "SAE 501 — BUT MMI parcours Développement web, IUT de Haguenau (2025)",
+    context: "Projet universitaire — BUT MMI parcours Développement web, IUT de Haguenau",
     projectDesc: "Application web de gestion de projets collaboratifs inspirée de Trello et Jira. Elle permet de gérer des projets, sprints, epics et tâches via un tableau Kanban interactif, avec notifications, reporting et invitation d'utilisateurs par token.",
     projectDetails: "Le principal défi technique a été d'implémenter des interactions dynamiques (drag-and-drop, filtres, notifications) avec Livewire sans recourir à un framework JavaScript dédié. J'ai également conçu un système d'onboarding automatique à l'inscription et travaillé sur des relations complexes entre sprints, epics et tâches.",
     competenceDetails: {
@@ -38,7 +38,7 @@ export const projectsData = [
     id: 2,
     slug: "mesto-galerie-photo",
     projectName: "Mesto - Galerie photo",
-    category: ["Frontend"],
+    category: ["Web"],
     tags: ["HTML", "CSS", "JS", "React"],
     competences: ["COMPRENDRE", "DÉVELOPPER"],
     context: "Projet personnel — reconversion vers le développement web",
@@ -58,10 +58,10 @@ export const projectsData = [
     id: 3,
     slug: "feffs-application-mobile",
     projectName: "FEFFS — Application mobile événementielle",
-    category: ["Frontend"],
+    category: ["Mobile"],
     tags: ["React Native"],
     competences: ["COMPRENDRE", "CONCEVOIR", "DÉVELOPPER"],
-    context: "Projet DI — BUT MMI, IUT de Haguenau (2025). Projet de groupe.",
+    context: "Projet universitaire — BUT MMI parcours Développement web, IUT de Haguenau",
     projectDesc: "Application mobile événementielle dédiée au Festival Européen du Film Fantastique de Strasbourg. Elle permet de consulter les événements, gérer un planning personnel, s'authentifier et personnaliser l'interface.",
     projectDetails: "J'ai pris en charge la gestion des comptes utilisateurs (inscription, connexion, modification du profil), l'accès à la galerie pour la photo de profil, le système de thèmes visuels (clair, sombre, système) via un contexte global, ainsi que l'intégration des médias et les considérations d'accessibilité.",
     competenceDetails: {
@@ -79,10 +79,10 @@ export const projectsData = [
     id: 4,
     slug: "couture-marketplace",
     projectName: "Couture",
-    category: ["Frontend", "Backend", "Full-stack"],
+    category: ["Web"],
     tags: ["PHP", "Symfony", "Twig", "CSS", "SQLite"],
     competences: ["COMPRENDRE", "CONCEVOIR", "DÉVELOPPER"],
-    context: "Projet universitaire — IUT de Haguenau, BUT MMI",
+    context: "Projet universitaire — BUT MMI parcours Développement web, IUT de Haguenau",
     projectDesc: "Couture est une plateforme web développée avec Symfony 6, permettant aux utilisateurs de réserver, louer et vendre des objets liés à la couture.",
     projectDetails: "L'application prend en charge différents rôles utilisateur et propose un design responsive. La gestion des rôles, des réservations et des disponibilités a nécessité une architecture backend solide.",
     competenceDetails: {
@@ -100,10 +100,10 @@ export const projectsData = [
     id: 5,
     slug: "jeu-snake",
     projectName: "Le jeu Snake",
-    category: ["Frontend"],
+    category: ["Web"],
     tags: ["HTML", "CSS", "JS", "ViteJS"],
     competences: ["CONCEVOIR", "DÉVELOPPER"],
-    context: "Projet universitaire — IUT de Haguenau, BUT MMI",
+    context: "Projet universitaire — BUT MMI parcours Développement web, IUT de Haguenau",
     projectDesc: "Jeu développé en JavaScript avec Vite, structuré en modules ES6. Il propose deux modes de jeu — Survivant et Aventure — avec une interface responsive.",
     projectDetails: "La logique de collision, la gestion du score et les transitions entre scènes ont été les points techniques clés. L'architecture orientée objet a permis une séparation claire des responsabilités.",
     competenceDetails: {
@@ -120,7 +120,7 @@ export const projectsData = [
     id: 6,
     slug: "quete-medievale-unity",
     projectName: "La Quête Médiévale",
-    category: ["Design", "Full-stack"],
+    category: ["3D & Immersif"],
     tags: ["Unity", "C#", "Blender"],
     competences: ["CONCEVOIR", "EXPRIMER", "DÉVELOPPER", "ENTREPRENDRE"],
     context: "Projet universitaire — SAE 402, Réalité Virtuelle, IUT de Haguenau",
@@ -142,7 +142,7 @@ export const projectsData = [
     id: 7,
     slug: "site-voyage",
     projectName: "Traveling in Russia",
-    category: ["Frontend"],
+    category: ["Web"],
     tags: ["HTML", "CSS"],
     competences: ["COMPRENDRE", "DÉVELOPPER"],
     context: "Projet de formation — Yandex Practicum",
@@ -163,7 +163,7 @@ export const projectsData = [
     slug: "agence-geo",
     projectName: "Site vitrine Agence GEO",
     client: "Hémisphère Web",
-    category: ["Frontend"],
+    category: ["Web"],
     tags: ["WordPress", "Elementor", "SEO"],
     competences: ["COMPRENDRE", "DÉVELOPPER", "ENTREPRENDRE"],
     context: "Projet client — Stage chez Hémisphère Web, Strasbourg",
@@ -210,7 +210,7 @@ export const projectsData = [
     category: ["Design"],
     tags: ["Figma"],
     competences: ["COMPRENDRE", "EXPRIMER", "ENTREPRENDRE"],
-    context: "Projet universitaire — IUT de Haguenau",
+    context: "Projet universitaire — BUT MMI parcours Développement web, IUT de Haguenau",
     projectDesc: "Refonte du design du site web de la Ferme Humbert, exploitation spécialisée dans l'agriculture biologique.",
     projectDetails: "L'identité visuelle a été repensée pour refléter les valeurs du bio et du local. Le design permet un accès intuitif aux produits et intègre un système de paiement en ligne.",
     competenceDetails: {

@@ -1,23 +1,23 @@
 export const servicesData = [
   {
     id: 1,
-    title: "Développement frontend",
+    title: "Applications web",
     description:
-      "Je construis des interfaces React rapides, accessibles, et fidèles à la maquette au pixel près. Animations soignées, responsive desktop/mobile, et code maintenable.",
+      "Du frontend au backend, en autonomie ou en équipe — avec attention au code, à l'interface et au référencement, en gardant toujours l'utilisateur final en tête.",
     color: "bg-accent-soft",
   },
   {
     id: 2,
-    title: "Développement backend",
+    title: "Applications mobiles",
     description:
-      "APIs et applications Rails pensées pour durer : modèles de données clairs, permissions bien gérées, exports PDF/Excel, et une architecture qui reste lisible en grandissant.",
+      "Apps mobiles natives et cross-platform — jeux, événements, recettes. Des projets pensés pour un usage quotidien, où l’expérience utilisateur prime.",
     color: "bg-mint",
   },
   {
     id: 3,
-    title: "Projets full-stack",
+    title: "Expériences immersives",
     description:
-      "De la conception de la base de données jusqu'à l'interface finale, je peux porter un projet de bout en bout, en autonomie ou en équipe.",
+      "Jeux en réalité virtuelle et environnements 3D. Je m'occupe autant de la modélisation que de la logique qui donne vie à la scène.",
     color: "bg-deep text-cream",
   },
 ];

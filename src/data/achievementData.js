@@ -6,7 +6,7 @@ export const achievementData = {
     {
       id: 1,
       title: "Opquast",
-      details: "Certification qualité web — 800 points. Bonnes pratiques pour améliorer la qualité, l'accessibilité et l'expérience utilisateur.",
+      details: "Certification qualité web — 800 points.",
       date: "2026",
       field: "Qualité web",
       link: "https://directory.opquast.com/fr/certificat/RZ41HW/",
@@ -27,14 +27,14 @@ export const achievementData = {
     {
       id: 3,
       title: "Développeur web",
-      details: "Formation Yandex Practicum, axée sur le développement front-end et back-end avec projets pratiques",
+      details: "Formation Yandex Practicum, axée sur le développement front-end et back-end avec projets pratiques.",
       date: "Décembre 2023",
       field: "Développement web",
     },
     {
       id: 4,
       title: "Gestion de programmes (PMI)",
-      details: "Masterclass animée par A.N. Pavlov, sur la gestion de programmes selon le standard PMI",
+      details: "Masterclass animée par A.N. Pavlov, sur la gestion de programmes selon le standard PMI.",
       date: "Mai 2021",
       field: "Gestion de projet",
     },

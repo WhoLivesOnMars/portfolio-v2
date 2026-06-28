@@ -28,11 +28,7 @@ export const aboutData = {
       highlight: true,
     },
     {
-      text: ". C’est en travaillant au plus près des développeurs que j’ai découvert cet univers et que j’ai eu envie de passer de la coordination de projets à leur conception technique. Aujourd’hui, je me forme pour approfondir cette transition et créer des solutions de qualité, en gardant toujours ",
-    },
-    {
-      text: "l’utilisateur au centre de ma réflexion.",
-      highlight: true,
+      text: ". C’est en travaillant au plus près des développeurs que j’ai découvert cet univers et que j’ai eu envie de passer de la coordination de projets à leur conception technique.",
     },
   ],
 
