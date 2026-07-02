@@ -77,8 +77,8 @@ export default function Footer() {
             <div className="flex flex-col gap-4">
               <span className="text-4xl">👋</span>
               <h2 className="text-xl sm:text-2xl font-medium leading-tight">
-                <span className="block">Prêt à passer à l’étape suivante&nbsp;?</span>
-                <span className="block">Construisons votre projet ensemble&nbsp;!</span>
+                <span className="block">Mon profil vous intéresse&nbsp;?</span>
+                <span className="block">Contactez-moi&nbsp;!</span>
               </h2>
             </div>
             <Link

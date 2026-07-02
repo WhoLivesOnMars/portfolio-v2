@@ -10,7 +10,7 @@ export const experienceData = {
       jobtitle: "Développeuse d’applications web et mobiles — Stagiaire",
       startYear: '2026',
       endYear: 'Présent',
-      tags: ["Ruby on Rails", "React", "React Native", "Docker", "PostgreSQL"]
+      tags: ["Ruby on Rails", "React", "Symfony", "React Native", "Docker", "PostgreSQL"]
     },
     {
       id: 2,

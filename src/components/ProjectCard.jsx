@@ -4,7 +4,7 @@ export default function ProjectCard({ project, dark = false }) {
   return (
     <Link to={`/projets/${project.slug}`} className="group block w-full">
       <div
-        className={`relative h-[400px] sm:h-[450px] lg:h-[620px] w-full overflow-hidden rounded-[1.8rem] ${
+        className={`relative h-[400px] sm:h-[450px] lg:h-[620px] 2xl:h-[550px] w-full overflow-hidden rounded-[1.8rem] ${
           dark ? "bg-cream/10" : "bg-cream-dark"
         }`}
       >
@@ -19,21 +19,12 @@ export default function ProjectCard({ project, dark = false }) {
           ))}
         </div>
 
-        {project.image ? (
-          <img
-            src={project.image}
-            alt={project.projectName}
-            className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
-          />
-        ) : (
-          <div className={`flex h-full w-full items-center justify-center ${
-            dark ? "bg-cream/10" : "bg-cream-dark"
-          }`}>
-            <span className={`text-sm ${dark ? "text-cream/20" : "text-ink-soft/30"}`}>
-              Image
-            </span>
-          </div>
-        )}
+        <img
+          src={project.image}
+          alt={project.projectName}
+          className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
+        />
+        <div className="absolute inset-0 bg-black/20" />
       </div>
 
       <div className="mt-4">

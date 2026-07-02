@@ -52,7 +52,7 @@ export default function ProjectDetail() {
         className="w-full aspect-[16/8] overflow-hidden"
       >
         <img
-          src={project.image}
+          src={project.heroImage || project.image}
           alt={project.projectName}
           className="w-full h-full object-cover"
         />

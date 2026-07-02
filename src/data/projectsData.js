@@ -1,5 +1,7 @@
 import one from '../assets-optimized/projects/one.webp'
+import oneHero from '../assets-optimized/projects/one-hero.webp'
 import two from '../assets-optimized/projects/two.webp'
+import twoHero from '../assets-optimized/projects/two-hero.webp'
 import three from '../assets-optimized/projects/three.webp'
 import four from '../assets-optimized/projects/four.webp'
 import five from '../assets-optimized/projects/five.webp'
@@ -37,7 +39,7 @@ export const projectsData = [
   {
     id: 2,
     slug: "mesto-galerie-photo",
-    projectName: "Mesto - Galerie photo",
+    projectName: "Mesto — Galerie photo",
     category: ["Web"],
     tags: ["HTML", "CSS", "JS", "React"],
     competences: ["COMPRENDRE", "DÉVELOPPER"],
@@ -49,6 +51,7 @@ export const projectsData = [
       DÉVELOPPER: "Développement d'une SPA en React avec gestion d'état, authentification, opérations CRUD sur les photos via une API externe, et mise en place du routing côté client.",
     },
     image: one,
+    heroImage: oneHero,
     images: [],
     code: "https://github.com/WhoLivesOnMars/react-mesto-auth",
     demo: "https://wholivesonmars.github.io/react-mesto-auth/",
@@ -91,6 +94,7 @@ export const projectsData = [
       DÉVELOPPER: "Développement full-stack avec Symfony 6 : création des entités, des contrôleurs, gestion des rôles utilisateur, intégration de la base de données SQLite et mise en place des formulaires.",
     },
     image: two,
+    heroImage: twoHero,
     images: [],
     code: "https://github.com/WhoLivesOnMars/couture",
     demo: "https://couture-info4.khanina.etu.mmi-unistra.fr/",
