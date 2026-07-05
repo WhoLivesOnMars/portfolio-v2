@@ -75,7 +75,7 @@ export const projectsData = [
     image: eleven,
     images: [],
     code: "https://github.com/WhoLivesOnMars/FEFFS",
-    demo: "https://github.com/WhoLivesOnMars/FEFFS",
+    demo: "https://feffs-sigma.vercel.app/",
     year: "2025",
   },
   {
