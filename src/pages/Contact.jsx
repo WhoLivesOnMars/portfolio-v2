@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
 import emailjs from "@emailjs/browser";
-import { contactsData } from "../data/contactsData";
+import ContactEnvelope3D from "../components/ContactEnvelope3D";
 
 const fields = [
   { name: "name", label: "Nom", type: "text", maxLength: 100 },
@@ -81,13 +81,7 @@ export default function Contact() {
           </motion.p>
 
           <div className="mt-10 flex flex-col gap-3">
-            <a
-              href={`mailto:${contactsData.email}`}
-              className="text-sm text-cream/80 hover:text-sky transition-colors"
-            >
-              {contactsData.email}
-            </a>
-            <span className="text-sm text-cream/80">{contactsData.address}</span>
+            <ContactEnvelope3D />
           </div>
         </div>
 
