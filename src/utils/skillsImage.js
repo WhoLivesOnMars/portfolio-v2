@@ -6,19 +6,22 @@ import symfony from '../assets/icons/skills/symfony.svg'
 // import angular from '../assets/icons/skills/angular.svg'
 import javascript from '../assets/icons/skills/javascript.svg'
 import react from '../assets/icons/skills/react.svg'
+import threejs from '../assets/icons/skills/threejs.svg'
 import laravel from '../assets/icons/skills/laravel.svg'
+import drupal from '../assets/icons/skills/drupal.svg'
 import sass from '../assets/icons/skills/sass.svg'
 import typescript from '../assets/icons/skills/typescript.svg'
 import bootstrap from '../assets/icons/skills/bootstrap.svg'
 import mongoDB from '../assets/icons/skills/mongoDB.svg'
 import mysql from '../assets/icons/skills/mysql.svg'
+import sqlite from '../assets/icons/skills/sqlite.svg'
 import postgresql from '../assets/icons/skills/postgresql.svg'
 import tailwind from '../assets/icons/skills/tailwind.svg'
 import vitejs from '../assets/icons/skills/vitejs.svg'
 import csharp from '../assets/icons/skills/csharp.svg'
 import jira from '../assets/icons/skills/jira.svg'
 import confluence from '../assets/icons/skills/confluence.svg'
-import reactNative from '../assets/icons/skills/reactNative.svg'
+import reactNative from '../assets/icons/skills/react-native.svg'
 import kotlin from '../assets/icons/skills/kotlin.svg'
 import php from '../assets/icons/skills/php.svg'
 import python from '../assets/icons/skills/python.svg'
@@ -47,8 +50,12 @@ export const skillsImage = (skill) => {
             return javascript;
         case 'react':
             return react;
+        case 'three.js':
+            return threejs;
         case 'laravel':
             return laravel;
+        case 'drupal':
+            return drupal;
         case 'sass':
             return sass;
         case 'typescript':
@@ -59,6 +66,8 @@ export const skillsImage = (skill) => {
             return mongoDB;
         case 'mysql':
             return mysql;
+        case 'sqlite':
+            return sqlite;
         case 'postgresql':
             return postgresql;
         case 'tailwind':
@@ -69,7 +78,7 @@ export const skillsImage = (skill) => {
             return csharp;
         case 'kotlin':
             return kotlin;    
-        case 'reactNative':
+        case 'react native':
             return reactNative;
         case 'jira':
             return jira;
