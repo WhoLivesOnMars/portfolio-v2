@@ -10,6 +10,7 @@ import eight from '../assets-optimized/projects/eight.webp'
 import nine from '../assets-optimized/projects/nine.webp'
 import ten from '../assets-optimized/projects/ten.webp'
 import eleven from '../assets-optimized/projects/eleven.webp'
+import twelve from '../assets-optimized/projects/twelve.webp'
 
 export const categories = ["Tous", "Web", "Mobile", "3D & Immersif", "Design"];
 
@@ -38,6 +39,30 @@ export const projectsData = [
   },
   {
     id: 2,
+    slug: "astronaut-realite-augmentee",
+    projectName: "Astronaut — Réalité augmentée",
+    category: ["3D & Immersif"],
+    tags: ["Unity", "C#", "Vuforia", "WebAR"],
+    competences: ["CONCEVOIR", "EXPRIMER", "DÉVELOPPER"],
+    context: "Projet universitaire — Réalité augmentée, IUT de Haguenau",
+    projectDesc: "Expérience de réalité augmentée permettant de faire apparaître et d’animer un personnage 3D en scannant une image cible avec la caméra d’un smartphone. Le projet a été initialement développé sous Unity avec Vuforia, puis adapté en version WebAR pour être accessible directement depuis un navigateur.",
+    projectDetails: "Le projet repose sur la reconnaissance d’une image cible et l’affichage d’un personnage 3D animé dans l’environnement réel. L’expérience propose plusieurs animations interactives, notamment la marche et le saut. Une version WebAR a ensuite été réalisée afin de rendre la démonstration accessible sur smartphone sans installation d’application.",
+    competenceDetails: {
+      CONCEVOIR:
+        "Conception de l’expérience de réalité augmentée, définition des interactions avec le personnage et mise en place du scénario de reconnaissance d’une image cible.",
+      EXPRIMER:
+        "Intégration et mise en scène du personnage 3D dans l’environnement réel, avec adaptation de son échelle, de son positionnement et de ses animations pour créer une expérience immersive cohérente.",
+      DÉVELOPPER:
+        "Développement de l’expérience AR sous Unity avec Vuforia, intégration du modèle 3D et de son système d’animations, puis adaptation du projet en WebAR afin de permettre son utilisation directement depuis le navigateur d’un smartphone.",
+    },
+    image: twelve,
+    images: [],
+    code: "https://github.com/WhoLivesOnMars/unity-ar-astronaut",
+    demo: "https://wholivesonmars.github.io/astronaut-webar/",
+    year: "2026",
+  },
+  {
+    id: 3,
     slug: "mesto-galerie-photo",
     projectName: "Mesto — Galerie photo",
     category: ["Web"],
@@ -58,7 +83,7 @@ export const projectsData = [
     year: "2023",
   },
   {
-    id: 3,
+    id: 4,
     slug: "feffs-application-mobile",
     projectName: "FEFFS — Application mobile événementielle",
     category: ["Mobile"],
@@ -79,7 +104,7 @@ export const projectsData = [
     year: "2025",
   },
   {
-    id: 4,
+    id: 5,
     slug: "couture-marketplace",
     projectName: "Couture",
     category: ["Web"],
@@ -101,7 +126,7 @@ export const projectsData = [
     year: "2025",
   },
   {
-    id: 5,
+    id: 6,
     slug: "jeu-snake",
     projectName: "Le jeu Snake",
     category: ["Web"],
@@ -121,7 +146,7 @@ export const projectsData = [
     year: "2025",
   },
   {
-    id: 6,
+    id: 7,
     slug: "quete-medievale-unity",
     projectName: "La Quête Médiévale",
     category: ["3D & Immersif"],
@@ -143,7 +168,7 @@ export const projectsData = [
     year: "2025",
   },
   {
-    id: 7,
+    id: 8,
     slug: "site-voyage",
     projectName: "Traveling in Russia",
     category: ["Web"],
@@ -163,7 +188,7 @@ export const projectsData = [
     year: "2022",
   },
   {
-    id: 8,
+    id: 9,
     slug: "agence-geo",
     projectName: "Site vitrine Agence GEO",
     client: "Hémisphère Web",
@@ -185,7 +210,7 @@ export const projectsData = [
     year: "2025",
   },
   {
-    id: 9,
+    id: 10,
     slug: "design-alsace-nautile",
     projectName: "Alsace Nautile Club",
     client: "Alsace Nautile Club",
@@ -208,7 +233,7 @@ export const projectsData = [
     year: "2024",
   },
   {
-    id: 10,
+    id: 11,
     slug: "design-ferme-humbert",
     projectName: "Ferme Humbert",
     category: ["Design"],
