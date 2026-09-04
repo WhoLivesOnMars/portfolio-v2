@@ -11,6 +11,8 @@ import nine from '../assets-optimized/projects/nine.webp'
 import ten from '../assets-optimized/projects/ten.webp'
 import eleven from '../assets-optimized/projects/eleven.webp'
 import twelve from '../assets-optimized/projects/twelve.webp'
+import thirteen from '../assets-optimized/projects/thirteen.webp'
+import fourteen from '../assets-optimized/projects/fourteen.webp'
 
 export const categories = ["Tous", "Web", "Mobile", "3D & Immersif", "Design"];
 
@@ -127,6 +129,26 @@ export const projectsData = [
   },
   {
     id: 6,
+    slug: "mastermind-mobile",
+    projectName: "Le jeu Mastermind",
+    category: ["Mobile"],
+    tags: ["Kotlin", "Android"],
+    competences: ["CONCEVOIR", "DÉVELOPPER"],
+    context: "Projet universitaire — BUT MMI parcours Développement web, IUT de Haguenau",
+    projectDesc: "Application Android inspirée du jeu de logique Mastermind, développée en Kotlin avec Jetpack Compose. Le joueur doit retrouver une combinaison secrète en un nombre limité de tentatives.",
+    projectDetails: "Le projet repose sur une séparation entre la logique du jeu et l’interface utilisateur. La génération de la combinaison secrète, la validation des propositions et le calcul des indices après chaque tentative constituent les principaux éléments techniques de l’application.",
+    competenceDetails: {
+      CONCEVOIR: "Conception des règles du jeu, de la logique de vérification des combinaisons et du parcours utilisateur avant l’implémentation de l’interface mobile.",
+      DÉVELOPPER: "Développement de l’application Android en Kotlin avec Jetpack Compose, gestion de l’état du jeu, des tentatives, de la validation des propositions et de l’affichage des résultats.",
+    },
+    image: thirteen,
+    images: [],
+    code: "https://github.com/WhoLivesOnMars/mastermind-mobile",
+    demo: "https://appetize.io/app/b_iuvpm2x5knozb6o7utqkj5da7u",
+    year: "2026",
+  },
+  {
+    id: 7,
     slug: "jeu-snake",
     projectName: "Le jeu Snake",
     category: ["Web"],
@@ -146,7 +168,7 @@ export const projectsData = [
     year: "2025",
   },
   {
-    id: 7,
+    id: 8,
     slug: "quete-medievale-unity",
     projectName: "La Quête Médiévale",
     category: ["3D & Immersif"],
@@ -168,7 +190,28 @@ export const projectsData = [
     year: "2025",
   },
   {
-    id: 8,
+    id: 9,
+    slug: "rss-reader",
+    projectName: "Lecteur de flux RSS",
+    category: ["Web"],
+    tags: ["React", "Ruby on Rails", "PostgreSQL", "REST API"],
+    competences: ["CONCEVOIR", "DÉVELOPPER", "ENTREPRENDRE"],
+    context: "Projet personnel — développement full-stack",
+    projectDesc: "Application web permettant d’ajouter, de consulter et de suivre plusieurs flux RSS depuis une interface unique.",
+    projectDetails: "Ce projet full-stack repose sur une interface développée avec React et une API REST réalisée avec Ruby on Rails. L’application récupère et analyse les flux RSS, stocke les flux et leurs articles en base de données PostgreSQL et permet de consulter leur contenu depuis une interface web. Le frontend est déployé sur GitHub Pages et l’API ainsi que la base de données sont hébergées sur Render.",
+    competenceDetails: {
+      CONCEVOIR: "Conception fonctionnelle et technique d’un lecteur RSS, avec définition des fonctionnalités, organisation des données et architecture séparant l’interface, l’API et la persistance.",
+      DÉVELOPPER: "Développement d’une application full-stack avec React et Ruby on Rails : API REST, récupération et analyse des flux RSS, gestion des articles, base de données PostgreSQL et déploiement de l’application.",
+      ENTREPRENDRE: "Réalisation autonome d’un projet personnel, de la définition du besoin jusqu’à la mise en production, avec choix des technologies et des solutions d’hébergement."
+    },
+    image: fourteen,
+    images: [],
+    code: "https://github.com/WhoLivesOnMars/rss_reader/",
+    demo: "https://wholivesonmars.github.io/rss_reader/",
+    year: "2025",
+  },
+  {
+    id: 10,
     slug: "site-voyage",
     projectName: "Traveling in Russia",
     category: ["Web"],
@@ -188,7 +231,7 @@ export const projectsData = [
     year: "2022",
   },
   {
-    id: 9,
+    id: 11,
     slug: "agence-geo",
     projectName: "Site vitrine Agence GEO",
     client: "Hémisphère Web",
@@ -210,7 +253,7 @@ export const projectsData = [
     year: "2025",
   },
   {
-    id: 10,
+    id: 12,
     slug: "design-alsace-nautile",
     projectName: "Alsace Nautile Club",
     client: "Alsace Nautile Club",
@@ -233,7 +276,7 @@ export const projectsData = [
     year: "2024",
   },
   {
-    id: 11,
+    id: 13,
     slug: "design-ferme-humbert",
     projectName: "Ferme Humbert",
     category: ["Design"],
