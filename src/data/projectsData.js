@@ -124,7 +124,7 @@ export const projectsData = [
     heroImage: twoHero,
     images: [],
     code: "https://github.com/WhoLivesOnMars/couture",
-    demo: "https://couture-info4.khanina.etu.mmi-unistra.fr/",
+    demo: "https://couture-nkq8.onrender.com/",
     year: "2025",
   },
   {
@@ -272,7 +272,7 @@ export const projectsData = [
     image: six,
     images: [],
     code: "https://www.figma.com/design/eigXQeORkxPVHBkU2q0o0y/SAE302_GROUPE3_DESIGN",
-    demo: "https://www.figma.com/proto/6X4mT8yczalsKV7CxZMxGy/CREA3_TP6_KHANINA_Daria?node-id=405-744",
+    demo: "https://www.figma.com/proto/eigXQeORkxPVHBkU2q0o0y/SAE302_GROUPE3_DESIGN?node-id=219-44&t=xHWkMLGgKrl63JrN-1",
     year: "2024",
   },
   {
